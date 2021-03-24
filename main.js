@@ -126,7 +126,7 @@ function post(serviceNowTable, callback) {
     },
     baseUrl: options.url,
     uri: `/api/now/table/${serviceNowTable}`,
-  };
+  }; 
 
   // Send Request to ServiceNow.
   // We are passing variable requestOptions for the first argument.
@@ -156,7 +156,7 @@ function post(serviceNowTable, callback) {
 }
 
 /*
- * This section is used to test your project.
+ * This section is  used to test your project.
  * We will test both get() and post() functions.
  * If either function returns data, print the returned data to console on STDOUT.
  * If either function returns an error, print the returned data to the console on STDERR.
